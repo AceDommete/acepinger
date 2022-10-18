@@ -2,8 +2,6 @@
 
 try:
 
-	import requests
-
 	from easygui import fileopenbox, msgbox
 
 	import os
@@ -24,13 +22,13 @@ except:
 
 	os.system("pip install easygui requests colorama")
 
-	import requests
-
 	from easygui import fileopenbox
 
 	from colorama import Fore, Back, Style
 
 	import sys
+	
+	from urllib import request
 
 def clear():
 
